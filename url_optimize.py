@@ -4,11 +4,13 @@ from poly_sbst.common.abstract_executor import AbstractExecutor
 from pymoo.algorithms.soo.nonconvex.ga import GA
 from pymoo.algorithms.soo.nonconvex.random_search import RandomSearch
 from pymoo.operators.selection.tournament import TournamentSelection
+from pymoo.operators.selection.rnd import RandomSelection
 from poly_sbst.sampling.abstract_sampling import AbstractSampling
 from poly_sbst.crossover.random_crossover import OnePointCrossover
 from poly_sbst.problems.url_test_suite_problem import UrlTestSuiteProblem
 from poly_sbst.generators.url_test_suite_generator import UrlTestSuiteGenerator
 from poly_sbst.mutation.url_test_suite_mutation import UrlTestSuiteMutation
+from poly_sbst.crossover.url_test_suite_crossover import UrlTestSuiteCrossover
 from pymoo.optimize import minimize
 from urllib.parse import urlparse
 from html.parser import HTMLParser
@@ -21,8 +23,8 @@ def optimize(runs=5):
     for run in range(runs):
 
         seed = get_random_seed()
-        pop_size = 10
-        num_gen = 5
+        pop_size = 100
+        num_gen = 50
 
         generator = UrlTestSuiteGenerator()
         selection = RandomSearch()
@@ -33,7 +35,7 @@ def optimize(runs=5):
                 n_offsprings=int(pop_size/2),
                 sampling=AbstractSampling(generator),
                 mutation=UrlTestSuiteMutation(generator=generator),
-                crossover=OnePointCrossover(cross_rate=0.9),
+                crossover=UrlTestSuiteCrossover(cross_rate=0.9),
                 eliminate_duplicates=False,
                 )
 
@@ -48,7 +50,7 @@ def optimize(runs=5):
 
         print("Best solution found: %s" % res.X)
         print("Function value: %s" % res.F)
-        print("Execution data:", res.problem.execution_data)
+        #print("Execution data:", res.problem.execution_data)
 
 
 if __name__ == "__main__":

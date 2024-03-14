@@ -70,6 +70,11 @@ class UrlTestSuiteProblem(AbstractProblem):
         #get max of fitness values
         fitness = max(fitness_values)
 
+        #save this max value to an external file with n_evals as the key
+        with open("fitness_values.txt", "a") as f:
+            f.write(f"{self.n_evals} {fitness}\n")
+            
+
         self.execution_data[self.n_evals] = {"input": test, "output": fitness, "execution_time": execution_time}
 
         self.n_evals += 1

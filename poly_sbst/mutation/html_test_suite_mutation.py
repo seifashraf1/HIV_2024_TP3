@@ -13,33 +13,36 @@ class HTMLTestSuiteMutation(AbstractMutation):
     def _do_mutation(self, x) -> np.ndarray:
 
         possible_mutations = [
-            self._delete_random_element,
-            self._insert_random_element,
-            self._replace_random_element
+            self._delete_random_character,
+            self._insert_random_character,
+            self._replace_random_character
         ]
         mutator = np.random.choice(possible_mutations)
 
         return mutator(x)
 
-    def _delete_random_element(self, s):
+    def _delete_random_character(self, s):
         """Returns s with a random character deleted"""
-        if len(s) > 2:
-            index_to_remove = np.random.randint(len(s))
-            s = np.delete(s, index_to_remove)
+        for url in s:
+            if len(url) > 5:
+                pos = random.randint(0, len(url) - 1)
+                url = url[:pos] + url[pos + 1 :]
         return s
 
-    def _insert_random_element(self, s):
+    def _insert_random_character(self, s):
         """Returns s with a random character inserted"""
-        if len(s) < (self.generator.max_length):
-
-            new_element = self.generator.test_gen.generate_random_test()
-            s = np.append(s, new_element)
+        for url in s:
+            pos = random.randint(0, len(url))
+            random_character = chr(random.randrange(32, 127))
+            url = url[:pos] + random_character + url[pos:]
         return s
 
-    def _replace_random_element(self, s):
+    def _replace_random_character(self, s):
         """Returns s with a random character replaced"""
-        index_to_replace = np.random.randint(len(s))
-        new_element = self.generator.test_gen.generate_random_test()
-        s_list = list(s)  # Convert string to list
-        s_list[index_to_replace] = new_element
-        return ''.join(s_list)  # Convert list back to string
+        if s == None:
+            return None
+        for url in s:
+            pos = random.randint(0, len(url) - 1)
+            random_character = chr(random.randrange(32, 127))
+            url = url[:pos] + random_character + url[pos + 1 :]
+        return s
