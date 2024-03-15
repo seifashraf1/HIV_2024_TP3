@@ -9,11 +9,12 @@ class UrlTestSuiteCrossover(AbstractCrossover):
 
     def _do_crossover(self, problem, a, b) -> tuple:
         #crossover the input by swapping a random segment of x with a random segment of y
-        #for every link in a and b, swap a random segment of a with a random segment of b
-        for i in range(min(len(a), len(b))):
-            if np.random.rand() < self.cross_rate and len(a[i]) > 1 and len(b[i]) > 1:
-                c = np.random.randint(0, len(a[i]))
-                d = np.random.randint(0, len(b[i]))
-                a[i] = a[i][:c] + b[i][d:]
-                b[i] = b[i][:d] + a[i][c:]
+        #for every link in a and b, divide a and b in half and swap the halves
+        for i in range(max(len(a), len(b))):
+            a_idx = np.random.randint(0, len(a))
+            b_idx = np.random.randint(0, len(b))
+            half_a = a[a_idx][len(a) // 2:]
+            half_b = b[b_idx][len(b) // 2:]
+            a[a_idx] = half_b + a[a_idx][:len(a) // 2]
+            b[b_idx] = half_a + b[b_idx][:len(b) // 2]
         return a, b

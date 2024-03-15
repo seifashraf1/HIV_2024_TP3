@@ -23,11 +23,10 @@ def optimize(runs=5):
     for run in range(runs):
 
         seed = get_random_seed()
-        pop_size = 100
-        num_gen = 50
+        pop_size = 10
+        num_gen = 10
 
         generator = UrlTestSuiteGenerator()
-        selection = RandomSearch()
         executor = AbstractExecutor(urlparse)
         problem = UrlTestSuiteProblem(executor)
 
@@ -37,6 +36,7 @@ def optimize(runs=5):
                 mutation=UrlTestSuiteMutation(generator=generator),
                 crossover=UrlTestSuiteCrossover(cross_rate=0.9),
                 eliminate_duplicates=False,
+                selection=RandomSelection()
                 )
 
         res = minimize(problem,

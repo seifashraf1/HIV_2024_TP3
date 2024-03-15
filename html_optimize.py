@@ -6,10 +6,12 @@ from pymoo.algorithms.soo.nonconvex.random_search import RandomSearch
 from pymoo.operators.selection.tournament import TournamentSelection
 from poly_sbst.sampling.abstract_sampling import AbstractSampling
 from poly_sbst.crossover.random_crossover import OnePointCrossover
-from poly_sbst.problems.url_test_suite_problem import UrlTestSuiteProblem
-from poly_sbst.generators.url_test_suite_generator import UrlTestSuiteGenerator
-from poly_sbst.mutation.url_test_suite_mutation import UrlTestSuiteMutation
+from poly_sbst.problems.html_test_suite_problem import HTMLTestSuiteProblem
+from poly_sbst.generators.html_test_suite_generator import HTMLTestSuiteGenerator
+from poly_sbst.mutation.html_test_suite_mutation import HTMLTestSuiteMutation
+from poly_sbst.crossover.html_test_suite_crossover import HTMLTestSuiteCrossover
 from pymoo.optimize import minimize
+from pymoo.operators.selection.rnd import RandomSelection
 from urllib.parse import urlparse
 from html.parser import HTMLParser
 
@@ -22,19 +24,21 @@ def optimize(runs=5):
 
         seed = get_random_seed()
         pop_size = 10
-        num_gen = 5
+        num_gen = 10
 
-        generator = UrlTestSuiteGenerator()
+        generator = HTMLTestSuiteGenerator()
         selection = RandomSearch()
         executor = AbstractExecutor(HTMLParser().feed)
-        problem = UrlTestSuiteProblem(executor)
+        problem = HTMLTestSuiteProblem(executor)
 
         method = GA(pop_size=pop_size,
                 n_offsprings=int(pop_size/2),
                 sampling=AbstractSampling(generator),
-                mutation=UrlTestSuiteMutation(generator=generator),
-                crossover=OnePointCrossover(cross_rate=0.9),
+                mutation=HTMLTestSuiteMutation(generator=generator),
+                crossover=HTMLTestSuiteCrossover(cross_rate=0.9),
                 eliminate_duplicates=False,
+                selection=RandomSelection()
+
                 )
 
         res = minimize(problem,
@@ -48,7 +52,7 @@ def optimize(runs=5):
 
         print("Best solution found: %s" % res.X)
         print("Function value: %s" % res.F)
-        print("Execution data:", res.problem.execution_data)
+        #print("Execution data:", res.problem.execution_data)
 
 
 if __name__ == "__main__":

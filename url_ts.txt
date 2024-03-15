@@ -1,0 +1,496 @@
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |      100 | -6.439875E-02 | -1.323529E+00
+     2 |      150 | -1.147056E-01 | -1.323529E+00
+     3 |      200 | -1.985475E-01 | -1.323529E+00
+     4 |      250 | -3.489175E-01 | -1.352941E+00
+     5 |      300 | -5.707713E-01 | -1.352941E+00
+     6 |      350 | -8.017169E-01 | -1.352941E+00
+     7 |      400 | -9.504555E-01 | -1.352941E+00
+     8 |      450 | -1.019114E+00 | -1.352941E+00
+     9 |      500 | -1.090109E+00 | -1.352941E+00
+    10 |      550 | -1.139993E+00 | -1.352941E+00
+    11 |      600 | -1.167736E+00 | -1.352941E+00
+    12 |      650 | -1.179967E+00 | -1.352941E+00
+    13 |      700 | -1.193281E+00 | -1.352941E+00
+    14 |      750 | -1.199057E+00 | -1.352941E+00
+    15 |      800 | -1.207773E+00 | -1.352941E+00
+    16 |      850 | -1.210181E+00 | -1.352941E+00
+    17 |      900 | -1.212589E+00 | -1.352941E+00
+    18 |      950 | -1.219417E+00 | -1.352941E+00
+    19 |     1000 | -1.225456E+00 | -1.352941E+00
+    20 |     1050 | -1.229876E+00 | -1.352941E+00
+    21 |     1100 | -1.230836E+00 | -1.352941E+00
+    22 |     1150 | -1.231796E+00 | -1.352941E+00
+    23 |     1200 | -1.232848E+00 | -1.352941E+00
+    24 |     1250 | -1.233545E+00 | -1.352941E+00
+    25 |     1300 | -1.233545E+00 | -1.352941E+00
+    26 |     1350 | -1.233545E+00 | -1.352941E+00
+    27 |     1400 | -1.233545E+00 | -1.352941E+00
+    28 |     1450 | -1.233545E+00 | -1.352941E+00
+    29 |     1500 | -1.233545E+00 | -1.352941E+00
+    30 |     1550 | -1.235217E+00 | -1.352941E+00
+    31 |     1600 | -1.235217E+00 | -1.352941E+00
+    32 |     1650 | -1.235217E+00 | -1.352941E+00
+    33 |     1700 | -1.235217E+00 | -1.352941E+00
+    34 |     1750 | -1.235217E+00 | -1.352941E+00
+    35 |     1800 | -1.236889E+00 | -1.352941E+00
+    36 |     1850 | -1.236889E+00 | -1.352941E+00
+    37 |     1900 | -1.236889E+00 | -1.352941E+00
+    38 |     1950 | -1.236889E+00 | -1.352941E+00
+    39 |     2000 | -1.236889E+00 | -1.352941E+00
+    40 |     2050 | -1.236889E+00 | -1.352941E+00
+    41 |     2100 | -1.236889E+00 | -1.352941E+00
+    42 |     2150 | -1.236889E+00 | -1.352941E+00
+    43 |     2200 | -1.236889E+00 | -1.352941E+00
+    44 |     2250 | -1.236889E+00 | -1.352941E+00
+    45 |     2300 | -1.236889E+00 | -1.352941E+00
+    46 |     2350 | -1.236889E+00 | -1.352941E+00
+    47 |     2400 | -1.236889E+00 | -1.352941E+00
+    48 |     2450 | -1.236889E+00 | -1.352941E+00
+    49 |     2500 | -1.236889E+00 | -1.352941E+00
+    50 |     2550 | -1.236889E+00 | -1.352941E+00
+Best solution found size: 1
+Function value: [-1.35294118]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |      100 | -4.155507E-02 | -7.627119E-01
+     2 |      150 | -7.036184E-02 | -7.796610E-01
+     3 |      200 | -1.195109E-01 | -7.796610E-01
+     4 |      250 | -1.965690E-01 | -7.796610E-01
+     5 |      300 | -3.064994E-01 | -7.796610E-01
+     6 |      350 | -4.283460E-01 | -7.796610E-01
+     7 |      400 | -4.943796E-01 | -7.796610E-01
+     8 |      450 | -5.639382E-01 | -7.796610E-01
+     9 |      500 | -6.070489E-01 | -7.796610E-01
+    10 |      550 | -6.363055E-01 | -7.796610E-01
+    11 |      600 | -6.527540E-01 | -7.796610E-01
+    12 |      650 | -6.615310E-01 | -7.796610E-01
+    13 |      700 | -6.673823E-01 | -7.796610E-01
+    14 |      750 | -6.713249E-01 | -7.796610E-01
+    15 |      800 | -6.790407E-01 | -7.796610E-01
+    16 |      850 | -6.885399E-01 | -7.796610E-01
+    17 |      900 | -6.932048E-01 | -7.796610E-01
+    18 |      950 | -6.932048E-01 | -7.796610E-01
+    19 |     1000 | -6.932048E-01 | -7.796610E-01
+    20 |     1050 | -6.932048E-01 | -7.796610E-01
+    21 |     1100 | -6.932048E-01 | -7.796610E-01
+    22 |     1150 | -6.932048E-01 | -7.796610E-01
+    23 |     1200 | -6.932048E-01 | -7.796610E-01
+    24 |     1250 | -6.932048E-01 | -7.796610E-01
+    25 |     1300 | -6.932048E-01 | -7.796610E-01
+    26 |     1350 | -6.932048E-01 | -7.796610E-01
+    27 |     1400 | -6.932048E-01 | -7.796610E-01
+    28 |     1450 | -6.956220E-01 | -7.796610E-01
+    29 |     1500 | -6.956220E-01 | -7.796610E-01
+    30 |     1550 | -6.956220E-01 | -7.796610E-01
+    31 |     1600 | -6.956220E-01 | -7.796610E-01
+    32 |     1650 | -6.956220E-01 | -7.796610E-01
+    33 |     1700 | -6.956220E-01 | -7.796610E-01
+    34 |     1750 | -6.956220E-01 | -7.796610E-01
+    35 |     1800 | -6.956220E-01 | -7.796610E-01
+    36 |     1850 | -7.002869E-01 | -7.796610E-01
+    37 |     1900 | -7.002869E-01 | -7.796610E-01
+    38 |     1950 | -7.002869E-01 | -7.796610E-01
+    39 |     2000 | -7.002869E-01 | -7.796610E-01
+    40 |     2050 | -7.002869E-01 | -7.796610E-01
+    41 |     2100 | -7.002869E-01 | -7.796610E-01
+    42 |     2150 | -7.002869E-01 | -7.796610E-01
+    43 |     2200 | -7.002869E-01 | -7.796610E-01
+    44 |     2250 | -7.002869E-01 | -7.796610E-01
+    45 |     2300 | -7.002869E-01 | -7.796610E-01
+    46 |     2350 | -7.002869E-01 | -7.796610E-01
+    47 |     2400 | -7.002869E-01 | -7.796610E-01
+    48 |     2450 | -7.049518E-01 | -7.796610E-01
+    49 |     2500 | -7.071995E-01 | -7.796610E-01
+    50 |     2550 | -7.071995E-01 | -7.796610E-01
+Best solution found size: 1
+Function value: [-0.77966102]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min    
+=================================================
+     1 |      100 | -1.583530E-01 | -6.428571E+00
+     2 |      150 | -3.033479E-01 | -6.428571E+00
+     3 |      200 | -5.861905E-01 | -6.571429E+00
+     4 |      250 | -1.081362E+00 | -6.571429E+00
+     5 |      300 | -1.868617E+00 | -6.571429E+00
+     6 |      350 | -2.680194E+00 | -6.571429E+00
+     7 |      400 | -3.179114E+00 | -6.571429E+00
+     8 |      450 | -3.359817E+00 | -6.571429E+00
+     9 |      500 | -3.406740E+00 | -6.571429E+00
+    10 |      550 | -3.445355E+00 | -6.571429E+00
+    11 |      600 | -3.489971E+00 | -6.571429E+00
+    12 |      650 | -3.525919E+00 | -6.571429E+00
+    13 |      700 | -3.563868E+00 | -6.571429E+00
+    14 |      750 | -3.599722E+00 | -6.571429E+00
+    15 |      800 | -3.633473E+00 | -6.571429E+00
+    16 |      850 | -3.665231E+00 | -6.571429E+00
+    17 |      900 | -3.693040E+00 | -6.571429E+00
+    18 |      950 | -3.695136E+00 | -6.571429E+00
+    19 |     1000 | -3.728220E+00 | -6.571429E+00
+    20 |     1050 | -3.735590E+00 | -6.571429E+00
+    21 |     1100 | -3.742960E+00 | -6.571429E+00
+    22 |     1150 | -3.749004E+00 | -6.571429E+00
+    23 |     1200 | -3.756374E+00 | -6.571429E+00
+    24 |     1250 | -3.765744E+00 | -6.571429E+00
+    25 |     1300 | -3.771018E+00 | -6.571429E+00
+    26 |     1350 | -3.774198E+00 | -6.571429E+00
+    27 |     1400 | -3.776198E+00 | -6.571429E+00
+    28 |     1450 | -3.776198E+00 | -6.571429E+00
+    29 |     1500 | -3.778198E+00 | -6.571429E+00
+    30 |     1550 | -3.778198E+00 | -6.571429E+00
+    31 |     1600 | -3.778198E+00 | -6.571429E+00
+    32 |     1650 | -3.778198E+00 | -6.571429E+00
+    33 |     1700 | -3.778198E+00 | -6.571429E+00
+    34 |     1750 | -3.778198E+00 | -6.571429E+00
+    35 |     1800 | -3.778198E+00 | -6.571429E+00
+    36 |     1850 | -3.778198E+00 | -6.571429E+00
+    37 |     1900 | -3.778198E+00 | -6.571429E+00
+    38 |     1950 | -3.778198E+00 | -6.571429E+00
+    39 |     2000 | -3.778198E+00 | -6.571429E+00
+    40 |     2050 | -3.778198E+00 | -6.571429E+00
+    41 |     2100 | -3.778198E+00 | -6.571429E+00
+    42 |     2150 | -3.778198E+00 | -6.571429E+00
+    43 |     2200 | -3.778198E+00 | -6.571429E+00
+    44 |     2250 | -3.778198E+00 | -6.571429E+00
+    45 |     2300 | -3.778198E+00 | -6.571429E+00
+    46 |     2350 | -3.778198E+00 | -6.571429E+00
+    47 |     2400 | -3.778198E+00 | -6.571429E+00
+    48 |     2450 | -3.778198E+00 | -6.571429E+00
+    49 |     2500 | -3.778198E+00 | -6.571429E+00
+    50 |     2550 | -3.778198E+00 | -6.571429E+00
+Best solution found: [array(['22', 'vv', '2', '2', 'l', '1', 'ww'], dtype='<U147')]
+Function value: [-6.57142857]
+
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min    
+=================================================
+     1 |       10 | -1.882714E-02 | -3.823280E-02
+     2 |       15 | -2.564958E-02 | -3.908241E-02
+     3 |       20 | -3.160106E-02 | -3.908241E-02
+     4 |       25 | -3.670244E-02 | -3.908241E-02
+     5 |       30 | -3.908241E-02 | -3.908241E-02
+     6 |       35 | -3.908241E-02 | -3.908241E-02
+     7 |       40 | -3.908241E-02 | -3.908241E-02
+     8 |       45 | -3.908241E-02 | -3.908241E-02
+     9 |       50 | -3.908241E-02 | -3.908241E-02
+    10 |       55 | -3.908241E-02 | -3.908241E-02
+Best solution found: [array(['ht=valu=ve2e2e2e22e2', '22', '1111', ..., 'p111111',
+        'ftp43//43//0-22', '222'], dtype='<U158')            ]
+Function value: [-0.03908241]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |       10 | -2.654659E-02 | -4.838710E-02
+     2 |       15 | -3.699576E-02 | -4.946237E-02
+     3 |       20 | -4.383682E-02 | -4.946237E-02
+     4 |       25 | -4.898287E-02 | -4.946237E-02
+     5 |       30 | -4.946237E-02 | -4.946237E-02
+     6 |       35 | -4.946237E-02 | -4.946237E-02
+     7 |       40 | -4.946237E-02 | -4.946237E-02
+     8 |       45 | -4.946237E-02 | -4.946237E-02
+     9 |       50 | -4.946237E-02 | -4.946237E-02
+    10 |       55 | -4.946237E-02 | -4.946237E-02
+Best solution found: [array(['222', 'ht.h~ueuue2', 'ft//lue2lue2',
+        'ps:ps:/y2=value2d/rY?key2=vay2=value2y2=value2', '1111', '22',
+        'uu11', 'me22', '22', 'e2k4k43e43e2I?ku:443/ee2ue2',
+        '?ue1?kueue1e1', 'http/wva=value1va=value1', '22ue222ue2', 'e222',
+        '1V.clueV.clueV.clue1lue1', 'val2a2alue22alu22', '11',
+        'httpayy2=valyy2=value2', 'f2ue22wvauue2aauue2',
+        'vae1yee1y2=ee1y2=valee1', '11', 'ftp:aaa',
+        'httpwww.R.com:443/s/~?//s/~?2=vlue2/~lue2lue2', 'valee1ve1e1',
+        'p://eyluylululullululue1', 'htbue11', 'hcom1=ve222', 'p11',
+        '?1111', '22', 'https://rg:44rg:4=value2=value2', '1=vue1ue1',
+        'ludu:value2ludu:22', 'h22', '&key2.org:8&keue1lue1ue1lue1',
+        'h2&keyalualue1kekey2=value1', '11', 'flue1&kue2ue2',
+        '=valuealue1eey1=value1ey1=value1', 'p:e2e2e2', '222', 'f11',
+        'fue2ue2', 'value1value1', ':/::/:22', '222222',
+        '3ss//ss////v/Llue1lue1lue1l11', 'http://wwal22=vy1=val22y1=val22',
+        'http:X/zwRq?key2=value1&kQ.com:80//080/m:8Q.com:80//080/m:80//R0///mX/zwRq?key2=v///mX/zwRq?key2=value1&key1=value2',
+        'h11', 'h1111', '0u1e1ue1e1ue1',
+        'https:=value1=value1&key2=key1=value1=value1=value1&key2=key1=value1',
+        'w?key2=vw?key2=y2=value1y2=value1', '11', '11', 'v1111', 'www.11',
+        'f2u2ue2ue2ue2', 'w.E.n:v1:v1111v:v:411', '22', 'lu11', 'e1e11',
+        'hevvalue1e1value1', 'ee1e1', 'ftgE?E2e2E2e2e2',
+        '/w.w.zHC.gov:41=tps://.43//P4343//Pe2e243//Pe2e2', '222',
+        'www0w0eeew0e1e1', 'ftpkey2=key2=eyalaal22alaal22',
+        '://:/wuwue1ue1', 'al==22', 'ttp22', 'ttlue2lue2', '12122',
+        'ft111111', 'ee1ee1e1e1', '3?key1=.a.gove2uuee2uue2ue2',
+        '/1=1alualue22al22', 'e1e1', '1e1=ve11e1=1e1e1', '11',
+        'h::/://wvue1ue1vue1ue1', ':=v/e1e1', 'lll22', 'he2e2222e2',
+        'https://www.EHdu:443//Z?key1=value1ey1=value1&key1=valuvalue1value1',
+        'hte1e1', 'heue2ue2', 'e2e2', 'fcue1ue1',
+        'L/7/.2lue22lue22y2=value2', 'se2e2e2e2',
+        'https:om:8080//(G?:q/CAS?key1=vq/CAS?key1e1e1', 'tttp://ey2=11',
+        '/=va=value2=value22ue22ue2=value2', 'htavalue2avalue2',
+        'httpseyey2=vaU?key2=vaU?eyaU?key2=vaaU?key2=va', '~~~?', 'h2222',
+        '222', 'http::y11', '?keva2vl2vle2e2', 'elv111', 'hllulue22222',
+        'hty-!/ed!//!//WPed!//!//WP/www.v.edu:4', 'ftptww2222',
+        'ftp08:81?key81?k?keykeykey2=',
+        'http://www.U.co2lu&k&key2=vkey2l2lue2l2lue2', '11',
+        'h:4:4y2alalue2=value22=ve2e2', 'http:/ale1e1e1e1',
+        'valuealvalue2vvaluealvlue2lue2', 'hte1ue1e1', 'C.=vue1ue1',
+        '/e22e2', '1e2llue2lue2ue2lue2', '/22', 'lu111lu111',
+        'f//w//wwwllwll', 'vcom::///eyy2y2=ve2e2', '2ue22222ue2ue2',
+        '2222', 'httpalue2e2e2', 'c=a=a=aa/22', 'httve2e22',
+        'pslpslue2&klue2lue2', '11', '22', 'key22aluelulue22aluelulue2',
+        'ftww.hue!?key2m//P/bVue11', 'ee1e1', 'w.2222w.2222', 'cJe1ee11e1',
+        '//9?kue1ue1//e1e1', 'ha11a11', 'hme2e2', '2828vv:82',
+        'tt2=v222=v22', 'ftp://y2=y2=2=y2=value12=y2=value1&ke1', '11',
+        'e11', '11', 'fte28/wa22', 'heey808jrva1va1', '=eeuue2',
+        'htkyy2=vale2e2', 'h321=e221e2e2', ':22222222', 'ye1yeye1e1',
+        'ht2ue2ue222ue2ue22', 'haalae1e1', 'ttr??r??', '11', '22', '22',
+        '//1//1111', 'vv11', 'al11alu1', 'ftlue1lue12ue1lue12=value1',
+        'htee11', 'ha=va=a=va=vw11', '1111', 'tt22', '2222',
+        'ftue1u11ue1ue1', 'httlue1alue1lue1alue1', 'vvv2',
+        'f2luuee2e2luuee2e2', '11', 'ht?k?key?key11', 'om:11',
+        'h~=lue2E=lu=lue2~=lue2E~E~=lue2', 'ftue2ylueule2e2', '22',
+        'eeee1ee1e1', 'alue1e1', 'htue2ue22=e2e2', 'f11e1e1', 'ftp22',
+        'h22', '111111', '/222/222222', '22', 'ft(_/wey2=value1ey2=aalue1',
+        '22', 'lueueue2', 'httt11', 'urvalue1vaue1value1ue1value1', 'f11',
+        'https://wwy2=valu=valuy2e1yy2e1y2=value1e1', 'hteee22e2',
+        'htttt/t/i4/4/6r/Pe1e14/6r/Pe1e1', 'k1=valu1=valuelu1=v11', '111',
+        '14141431', '122', 'e2e2',
+        'http3ODFl3ODFlue2&key1=1l3ODFl3ODFlue2&key1=1lue2&key1=1&kevalvalue1',
+        'hu11ue1e1e1', 'h2e22e2',
+        'ftp://ww.K).edu:8080//T).edu:8080//TG?key1=val).ed=va1=value2&key2=value1=va1=vavalue1value1',
+        '22', '11',
+        '//zEovalue29/zEoK/DZ/6Gl?kevalue29/zEoK/DZ/6Gl6Gl?k6Gl?key1=value2',
+        'ht://www.AZ.neRFY)key1=v:key1=v://ww//www.AZ.net:8///RFY)?y1y1=v',
+        'eue1ue1eue1ue1', '://e1valae1e1ae1e1', 'al22', '11',
+        'ftp:/:8=t:8t:8:8=t:8t:8', 'ee2e2', 'e222', 'httlue1lue1',
+        'fte2e2', '11', '=====', 'e2ue2e2ue2',
+        'f=vwwvalue21=value2value21=value2', '1111',
+        'ftp:r::433//l=value2=value2',
+        'f2=value1y2=value2=value1y2=value1y2=value1y2=value1',
+        'fue1=v0/1y21111', 'gue1uue1ue1', 'al11111', 'e2e2', 'h11',
+        'f:/:/eye2&e2ey2=vaeyue1ue1', '1111', '11', 'u22',
+        'htva1ey2=11ey2=1', 'ht11111', 'ht=valuealue2alue2', 'e11',
+        'fll11', 'ht=v1l1l1luelue2', '22', 'alue1alue1', '=ll2222',
+        '.ee1.ee1e1', 'htt/y/t:.edu:8/value2wwvalue2=value22=value2',
+        'h2/2/u2/2/u//', '111', '11', 'f22', 'ee2ee2e2',
+        'httpkevlluvalu22', 'ft////w11', 'h11111111', '22',
+        'ftp:Ce=vae1e1aeeaeee1', 'uu2222', 'hww08lue2lee2', 'htt11',
+        'h/q22q22',
+        'httww..pyey2alaleewww&key2yey2alaleewww&key2alaluewww..', '1111',
+        '11', 'hlululue1', 's22s222', 'hte11',
+        "ftp/xo?key//U/'u?ke'u?key2=value2'??key2=value2",
+        'ftwwkeywwkey1=vkey1=va&key1=&key1=value2', 'h11', '1111',
+        'hww2w22', '11', '22', 'ue2ue2', 'tptomw.Q.clee2=valulue2lue2',
+        's://s://www1111', 'hva2=2ue1ue1',
+        'value2ey2=value2valy2=vy2=value2',
+        'ft1r.net::8/Dslue1lue1:8/Dslue1lue1', '1eee1', 'he1e1111',
+        'ftp://elulelulue1', '22', 'ftue1ue1',
+        'ftp://ww=value1p4?keey2=value1ey2=value1', 'httelueueue2',
+        'u22u22', 'ftp://wwwe2&value2&key1=vuuvalue2&key1=vuu',
+        '11value11vae1e1', 'ftp://ey1=vee2e2ee2e2', 'uelu22lu22',
+        '8//om:8A?kA?k//om:81ue11ue1', 'alue2lue2', 'h22eee2',
+        'https://s:11', 'httvaly2y2key2', 'feueue22222', 'u&12&&12&2&1',
+        '222222', 'f2222',
+        'https://wwV.org:8V.org:8080//Sluerg:8080//rg:8080//Slue1lue1',
+        '1yeye1e1', 'ht//ww/2222', ':1ue11ue1', '1111',
+        'fa8ov:880//2key2e28ov:880//2key2e2e2', 'ft1=N2N2',
+        'pwJ..gE.gE/2E/!/!?/!?lue2', ':4?key1=vue2ue22',
+        'h==valueyvavyvavalue1=value&&ke1e1', ':y2022', '11',
+        'yvlyvly2ly2=22', 't22', 'f1e1e1', '22', 'hlue2ey1=vlue2lue2',
+        '((E((Ee(22', 'w1111', ':11', '222', '2&22e2&e2e22e2&e2e2',
+        'ftg:8080/e2e2g:8080/e2e2', 'hteeee1eeee1', 'ue2ue2', 'ee1e1',
+        'htt22', '1111',
+        'https/M?/M?a2=v2=v/M?/M?a2=v2=value2a2=v2=value2',
+        "htt4//C6sl'?kelul'?kelue1",
+        'f1=value1ke=v=valalee1aluke=v=valalee1alue1',
+        'http0/value2aalue2', '22', 'ht:::/::/2:/2', '22',
+        'hl1al1alue11alue1', 'ht88011', '?keg?keg80e28022',
+        'e1ue1e1ue1e1ue1ue1', "4E-Q'k1=vllu'k6?E-Q'ue2ue2Q'ue2ue2", 'e1e1',
+        'tptps:y1ue1ue1', 'h?komome1omome1', 'ee22',
+        'ftey2ey2=ky1=alue1ualue1ue1alue1', 'tt:11', '1w.1w.1', ':::/22',
+        'f1e1ee1', '11', '1&1e1&ke1&k1&1e1&ke1&k', 'e1e1ue1e1ue1',
+        'fww111w1111', 'ae2ue2e2ue2', 'https=va=value2et:ke==lue2lue2',
+        '22', 'httuue1e1', 'p:/e1e1e1', '11/11/w11', 'fey1=vau1uuuu',
+        'ftvlluee2=value2e2=value2', '.owq22wq22',
+        'ftp:!?ve1Bey2ey2=ve1B!?key2=ve1', '2a2e22e2',
+        'htp://w0/wwwww2ww22', 'h122', '1111',
+        'http2=v.YS./h1w..YS./h1w.YS.edu43//443/3//pn/h1w.YS.edu:443//pn/h1/3//pn/h1w.YS.edu:443///',
+        '22', 'ttt11', '1e1e1', 'hlle1e1', 'e2e2', 'v/v:/v:80//(B/22',
+        '21212', 'htta?ke2=ua?ke2=ee1ue1', 'ftp://alue1alue1alue1alue1',
+        'e11', 'e2e2e2e2', 'he2uee2ue2l22', '2222', 'eee1', 'eey1e1e1',
+        'yalulue1lue1', 'ftet:80//7/2&key2=vay1=value2y1=value2', '222',
+        '111e1', 'tt1lu11', '1111', 'htv.=vallue1uelue1ue1',
+        'http://www.hkyy.net:e02M/*bM?kee02M/*bM?key2alue2y2=alue2y2=value2',
+        'key1=value2key1=lulue2', '22', 'ee2ee2ee2ee2',
+        'http://wne1e1ne1e1', 'U2U2U22', 'htalue22', 'httpkue1ee1',
+        'htt2=vake2vvalue12vvalue1', 'hti0.e:0/11', 'eey2=vvalue1value1',
+        'htwwluluwwlulue1luelue1lue1alue1', 'k22e2', 'hvwe11alue11alue1',
+        '1111111', '11', '11', '11', 'ttp22', '22', 'h2222',
+        'htt=valww.f.govov:808/p?key2=value1/p?key2=value1',
+        'httpe1&uvllululue1', '222', '22', 'http://www.e2e2', '11',
+        'e22e2', '=valu=22=valu=22', '111e1e1',
+        'http:ey1=va1key2=valkey2=valy2=y2=valuy2=valu', 'htX.w.X1X.w.X11',
+        '222', 'http1&k8X/180X/1808//', '11', '.111', 'htee22',
+        'h.ue2ue2ue22', 'hP/-//PZ/PZ3~-/PZ3~e1', '22', '2222',
+        'f/al/llue1ue1', '1111', '22', '11', 'ht22', '11',
+        'https:/www..ue2ue22ue2ue2', 'ht1ue114u1ue114u11', 'y==v=va22',
+        '22', 'L222', '11', 'e1lue1alue1e1lue1alue1',
+        'https//wwlu//wwlue1wlue1y//wwlue1', 'he111', '11ehtthtthtt11',
+        'https:/:80=vattp1value1edu:8value1alue1e1value1e1value1',
+        't:11:11', '8Q/7/q/28Q/7/q/2ueue', '22',
+        'ftp://www.L.net:2ue2v2ve2val2ve2value2ue2value2', '1111', '22',
+        '222222', 'ae1e1', 'hr?2&l2&kee2lkekee2e2', '222',
+        '8080//VOvalue2a=value2value2a=value2',
+        'mimiR42lue22l42lu42lue22lue2', 'hv22', 'http/Q/v//Q/v/ueue2',
+        '??ke2e2e2', 'hlalue2alue2', 'aae1e1', 'f2lue22lue2', '.22', '22',
+        '22', 'htaluea2e22e2', '11', '11', 'h20e22', 'e&e&&ke&&&&&&',
+        'htt11', 'h2111111', '22', 'e2e2ee2',
+        'ftp://www.1.edu:/DTz?j/DT/DTzue/DTzue1ue1', '11', 'e22',
+        'aluue1ue1', 'ht?kRue1e1e1', '1111', 'f11', '22', 'ue1ue1',
+        'httpszo/f9U9?key1=valuee1zo/f9U9?key1=valuee1', '22', '22',
+        'http0//J/Rl/aalue1aalue1', 'value1e1e1', '11',
+        'ht:4431=valaalua11', '11e111', 'htte22=v1e111e11', '22',
+        'h=va222', 'ftu/uue2e2', 'a/eyle2le22le2le222', '1111',
+        'fe22.ne2e22.ne2', 'f11', '2222',
+        'heattpattp:.org:80eattpattp:.org:8080//Y?key2=va=valulue2lue2',
+        '222', 'hww.K-.orww.K-.org:80//11', 'f/11', '11', 'ht11',
+        'http:/e1ue1e1ue1', 'http::/1e1e1', 's:wve222', '11',
+        'lue1=12=value1=12=value1e=v=value1',
+        '.X3//Xv//www.X3//Xv//www.x.ed3//X3//Xv//2=value1=value1',
+        'ht22=11=11', 'feee2', '11', 'ft/www.S.11', 'y1e11e1',
+        'halue26/HHDkkey1=value1&22alue26/HHDkkey1=value1&22', 'hee11',
+        'ftp/wke/www.xee1ue1',
+        'htttp://www.gd.ov://5///5/ttp://www..o.ov:8080//5/_ee', '11',
+        '/X*(22', '=valu22', 'u11u11', 'll2222ll222222', 'httwW2W22',
+        'https://www.Jq.org//www.Gy.//www.Gy.gotps://www.Gy.gov:80//=value1&&key2=ey2=valuey2&key2=ey2=valuey2=value1',
+        'hvue2ue2e2', 'valuevalue1&key1=vvalue1&key1=value1',
+        'ht:80vCkue11', 'ppt2022022', '22', 'e1e1ue1', 'l1l1',
+        'htcom=com=valueelue2elue2', 'f:w.alue1alu.ue1ue1',
+        'ftvalue2value2', 'hee11', '11', '11', 'ee111', 'hw424222',
+        'ue111', 'ppp://www.32e22e2', '11', 'yeyyeye1e1',
+        'htt:8wekey1=vkey1=vaekey1=vkey1=val', '22', 'ft222', '11',
+        'fte2alue2elulue2',
+        'http:y=vaey1=value2&key1=value1ey1=value2&key1===value1=va=value2=value1=va=ve2&e2&key1=value1',
+        '22',
+        'htty1=value1&key1=vaey1=vkey2=vkey2=y1=value1&key1=vaey1=vkey2=vkey2=value2www.h.net:8&key1=value1&key1=y2',
+        'ue1alue1ue1alue1', '//w222', 'u4ey1u43ey1u43y11y11',
+        'hvllue2alue2vllue2alue2', 'v/U?k-y1=/U?k-y1=value2y1=value2',
+        '4/VV/k9z-/kR1080//7e/9z-/v/kR1080//7e/9z-/v/I4/I4/VV/kR1080//7e/9z-/v/I4/VV/kR1',
+        'h2e22e2e22e2e2', 'h111', '22', '22', '11', 'l11',
+        'ftp:.cueue1alue1', 'h/T/value222', '822', 't:t:11', '11',
+        ':/ue1ue1', 'e11', 'h222', 'htue1&e1e1e11e1', '.e11',
+        'ftp:e2&alue1a2&alue1ale2&alue1a2&alue1alue1', 'httpllue1alue1',
+        'e1e1', 'lue2G==2222', 'hey2e1lue1lue1ey2lue1lue1',
+        'ftp80/i?kalue/i?ka/i?kal/i?kalee2', '11', 'e1e1', '11',
+        'ft0ue20ue2', 'eee22', '442e2ey2va22va222222', '22',
+        'hg://w:g:gy22y22ey22', 'f22',
+        'ttps:ey1=yeyey1=ey1=value2yey1=eyey1=value2', 'l11',
+        'https://w&k2=value1&1&kew.ws.net1&kew.ws.net', 'u22', '11', '111',
+        'h2k1lullueue2ue2', 'hwwe1e1aue1ue1', 'ftp22', 'u11',
+        '=y2=vae2e2y2=vae2e2', '88', '=1=1ee1=1eey1=1',
+        '2=value22=v2=val=value2lue2', 'hwe2ee2e2',
+        'ww:80//~8Ep0//0//~8Ep2', 'httvalkeye1evalkeye1e1', '1e11e1',
+        'he1e1', 'httwww.ww.v.edu:80//HNp:/e2e2', 'htp:ue1vu1u11111',
+        'ftp://www/21=vakey1=value2key1=value2', 'tt:0l11l11',
+        've2vve2veae2e2alue2', 'fw22',
+        'ftp:kakey2akey2=evakvakevakeykey2=value1',
+        'https://www.j.://82=value1y2=val=value1=value1', '880822', 'h11',
+        '11', 'tptp22', '22', 'htt//www.L.gue2ue2ue2ue2', 'e22',
+        '=value/key1=value/=val=valulue1lue1', 'lue2lee2', '11', 'k22222',
+        'ht22', 'httpsttpww.t.ww.t.ke2?keke2?ke2', '22', '22', 'ee11',
+        '11111', 'h22', 'htl1111111', 'htlue2e2lue2lue2ue2', 'h11', '011',
+        'h://://w//cD/~2/cD/~2/TPD/~2/D/~2/TPPu?key2=value1', '1e11e1',
+        'euueuue2', 'h11', 'f2vvaluae2e2ae2e2',
+        'https:/.m:m:80//?k?key2=value2&key1=.c//Jg?//Jg?key2=vey2=v080//6/EvDC/P?key1=vaey2=v08vava',
+        'htt=valudu:8080//y//www.orT~du:8080//y//rT~.crT~.com:443//R?ke2',
+        '1vllee11vllee1',
+        'http:/org~X.(d.org:80k/./l?k2=value22=valuey2=k/./l?k2=value22=valuey2=value2',
+        '11',
+        'http://www.9D.gov:442rg:443//-V-Vvrg:443//w)-Vv/j0/r?1=v1=vae2e2',
+        '22222222e2', '22', 'http://wwey1e2&kee2&ey1e2&kee2&key1e2&22',
+        '1111', 'hx.2x.2', '22', 'f//:e2lue22lue2', 'e1e11lue1ue11lue1',
+        'ftp:/gkey1=value1&k7.rg1&k7.org:44lrg1&k7.org:44lue2',
+        '?kue?kue2&keyue2&key2=valE?k?key1=vaue2ue2',
+        'hts:/8s:/80v:8/l/lu//lu//lue1', 'ftpv22v22v22', '22', 'h2222',
+        'eeee1e1', '/Tue2ue2', '1111', 'kelue11uulue11uue1',
+        'https://y2ue1&k2ue2ue1&k2=value22=value2',
+        '=value1y1e1e1=valee1y1lue1', '1l11e1',
+        'ht2dIm2/d1h/GG/keyue2keyue22dIm2/d1h/GG/keyue2keyue2', '11',
+        'https://www.I.org://ue1ue1', 'p/22/22',
+        '13//?k1?key1?keye1e113//?keye1e1?keye1e1', 'he1e1', 'fee1e1ee1e1',
+        'A.gov==22', 'ee11', 'e11', 'ee2eee2e2e2', '22222', '222', 'h1111',
+        'ue1e1ue1ee1ee1e1uee1e1', 't2222', 'k22222',
+        '2&kelluelue2lue22&kelluelue2lue2', 'vve2e2', 'http22',
+        'teteyeey11u11ue1', '111', '22', '=vuuue1=vuuue1', '222',
+        'http://.ofM?key1=value1fM?key1=value1', 'htttpw.22w.22',
+        'f1=value11=value1', 'f=e1=ve1=valee1', '1=1=',
+        '22.22.ee222.ee2e2', 'flelue2lelue2', 'uee11e11',
+        'htty1=ue2&key1=value1y1=ue2&key1=value1', 'c~ve2e2ve2e2=ve2',
+        '11', 'ftp://1=aluealue2alue2', 'ke==11=11',
+        'v?key1=value1v?key1=value1', 'htte&ke&k11', '222', '11', 'e1e1',
+        'hllue122', '22', '1eeee2e2e2', 'hp:p://we2p/value2ve2e2',
+        'yVvl1VvlueVaalue1Vvalue1', 'hee2ee2e2', 'ey2ey2',
+        'ftpy2=vaevv=vue2ue2', '2222222', 'tptp:w/ee2ee2',
+        'http://key1=va/Jal/Jaluw.Jal/Jaluw.(keaJal/Jaluw.(kealue2alue2',
+        'htpw1w1', '222', '11', 'a222222', '2222', 'e2e2', '.-11', '22',
+        'ftp1=v.11=v.1=value1&key22alu1=value1&key22alue1&key1=value1&key22',
+        'h22222', '2ue11e1', '22', '22', '1=val1=value2e2vavalue2',
+        'fe2&value2valueee2&value2value2', 'tt1ue11ue1', 'J22e2',
+        'he1e1e1e1', '11', 'u11u11',
+        '/www./8080//N?key1=valu80//N?key1=value2', 'h22', '11',
+        'htpp?k.gov?k.gov3?keye2e2', 'fpp://www.yp1ue1ue11ue1ue1',
+        'alue-/aoe2&key2=vaome2&key2=vaomaoe2&key2=vaome2&key2=vaom',
+        'eeeee', 'w.11w.118011', '111', '1e1e111', 'ht=veeee1=value1',
+        't:80teee1', 'e2uee2ue2', '11',
+        'v:80//U-c/M?key2=vauue2&1v:80/e2&1e2&1', '2222', '111',
+        'w.Rue1vae1e1', 'ftewe2ee2e2', 'ht1=e11=e1vavalue1',
+        'fpp://www.vA1111', 'ee2e2', 'hk1uue1ee1', 'e11e11',
+        'ftp://w.g:80elue1e1elue1e1', 'h.11ue111ue1',
+        '=val1&1&key1=vue1&klue2lue2', '11', 'fe22',
+        'ftp1=a.net:8080//ue1&key2=valu1=a.net:80ue1&key1=a.net:8080//ue1ue1&key1=a.net:8080//ue1&key2=value1',
+        'ss2s222', '22', '22', 'e1111e11', 'p8p880e80e2e2', 'eeee2',
+        '2u2u2u22', '11', '.eee1', 'fUyUyQ?k=//UyQ?ke11=//UyQ?ke11',
+        '2222', '22', 'tttps:/key2=ukey2=ue22=2=',
+        'ftp://www.M.org:80//A?kww.M.org:80A?A?alal', 'f22e2',
+        'huale1e1ale1e1&keale11', '111', '/p:2e2e2e2e2', '.dddd22', '22',
+        '/_alue2alue2', '22', 'http:e2e222', 'hee11', 'httsslue2lue2',
+        'h?e2e2?e2e2', 'e?al/11', 'he1e1', '2o22', 'htlluelu11',
+        '&k&kew&kew.8.e1&key1e2ue2e2ue2&kew.8.e1&key1=value2',
+        'https://ww/~ec/pM!k)/)2=&key2=2=&key2=', 'ee2e2', '222', '22',
+        'tt22', '11', 'h=valu11=valu1=valu11=valu1',
+        'ueaaue1alue1lue1alue1', 'lu1u111u11',
+        'kw.o7C.eduwu:80kke//9?ke2=ue22=ue2', 'hMY://www.Mzvale1e1', '22',
+        'h43//eyey', 'httpSey1=value1ey1=value1See1ey1=ve1ey1=value1',
+        '.4.424.42', '/811', 'ae1e1', '1111', 'ht2222',
+        'u1=veeee11=valee1', '11', '22', 'http&e1&lue2e1&lue2',
+        't:8080//51Zkey1==value2&k=value2&key1=t?key=value1=value1',
+        '2le2e2ue222', 'httwwlue2wwl222=va2=val2=value2', 'h22',
+        'ftp://we2ue1&keylue2lue2e2ue2=val2=value2', '22',
+        'ue1value1ue1value1', 'ftp:y1=ke2y&ke2&ke2ke2y&ke2&ke2',
+        'fe2&key2=valuee2&key2=value2', 'hhttpssed6.ed6ue2ue2', '22', '11',
+        'a22', 'ftp:22', 'w222', 'sey1sey1=value2yy1=valu22',
+        'h11keeee1ee1', '2ue22ue2', '2222', 'ht//=//=value=val=valuee2e2',
+        'll1111', 'e2lee2le2lue2', '/2/22', 'w//=v=vae2e2', 'he11e11',
+        '222', 'w?ke?kew&keal=v22', 'fte1e1',
+        'ftp://www.ey1=vey1e1&e1&key1=vey1=vey1e1&e1&key1=v',
+        'h2lvveee2e2', 't22', 's11', '111111', '1111', '11', '1111',
+        'ftv:lu2v:l22', 'h22', 'fe211', 'eee2e2', '22', 'h2u2ue2',
+        'al/e.goealue2w.ew.e.golue2w.ee2w.ewe2w.ew.e.golue2w.e.golue2',
+        'halue2&key2=vauue1&key1=value1value1&=vaalue2&key2=vauue1&key1=value1value1&=valkey1=lue1lue1',
+        'rr2r2', 'valu08/Z?ke3?11', '11', 'a22', '11', '22', 'ftw.x.ge1e1',
+        'https://wwhtwww.3ov:80//O?k0802=vkey2=value2&key2=value22=vkey2=value2&key2=value2',
+        '.1e1=v22e1=v22', 'https2e2e2ue2e2ue2e2ue2',
+        'ukevkevalu2u22?kevalu22?key2222?key22', 'tptp:=22', '11',
+        'w://www://www.n.o:ue1g:ue1g:ue1', '1', 'ftueuue1', 'hy11111',
+        '&k&ke111', 'e1111ue1', '?key2alalue2??key2=value2?key2=value2',
+        'ft243/43//u/o?kevalvalu43//u/o?kevalvalue2', 'lue1ue1lue1ue1ue1',
+        '2222', 'f4o?4o?ke=v:lue:lue2', 'fu22uu22u22', '.e2ue2e2ue2',
+        'fe1&ke11ue1&keyey1alaley1alal', 'httey2=vaeyey1lue2lue2',
+        'ftp://.b.&key2=value2&key2e2e2',
+        'https:&key2=ve1&kue1&key2=value1ue1&key2=value1', '22',
+        '-2&.GUeNe2GU-2&.GUeNe2GUeNe2', '2222', 'http://ue2ue2',
+        '.comyeu11', '222', 'ww2222', '22', 'htvalue2value2', '11',
+        's:/2s:/2222', 'AAlualualee2', 'e22e2e22e2e2', '11', 'ee11e11',
+        'lue1&key2/K?key2=y2=value21&key2=value2y2=value21&key2=value2',
+        'llue1le1e1', 'e11', '222', 'htt22', '22',
+        'h.?key81lu1lue11lu1lue1', 'https://ww11',
+        'htt?y2=value2&ky2=value2&key2=value2', 'lu22e2e2'], dtype='<U200')                                                   ]
+Function value: [-0.04946237]

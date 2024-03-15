@@ -17,12 +17,40 @@ class HTMLTestSuiteGenerator(AbstractGenerator):
     def __init__(self) -> None:
         super().__init__()
         self._name = "HTMLTestSuiteGenerator"
-        self.max_length = 5000
+        self.max_length = 10
         self.min_length = 2
 
     @property
     def name(self) -> int:
         return self._name
+
+    def generate_random_html(self) -> str:
+        """
+        Generate a random HTML test suite.
+
+        Returns:
+            str: The HTML generated test suite.
+        """
+        html = "<html>\n"
+        html += self._generate_random_element()
+        html += "</html>"
+        return html
+
+    def _generate_random_element(self):
+        tags = ["<div>", "<p>", "<span>", "<header>", "<footer>", "<section>", "<article>", "<aside>", "<nav>", "<ul>", "<ol>", "<li>", "<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>", "<a>"]
+        tag = random.choice(tags)
+        content = self._generate_random_content()
+        return f"{tag}{content}</{tag[1:]}>\n"
+
+    def _generate_random_content(self):
+        contents = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]
+        content = ""
+        content += random.choice(contents)
+        return content
 
     def generate_random_test(self) -> str:
         """
@@ -53,12 +81,10 @@ class HTMLTestSuiteGenerator(AbstractGenerator):
             "<footer>": ["<p>"],
         }
 
-        html_grammar_ = AbstractGrammar(html_grammar)
-
         n = random.randint(self.min_length, self.max_length)
         test_suite = []
         for i in range(n):
-            test_suite.append(html_grammar_.generate_input())
+            test_suite.append(self.generate_random_html())
 
         return np.array(test_suite)
 

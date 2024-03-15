@@ -1,0 +1,88 @@
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |       10 | -1.447698E+01 | -3.400000E+01
+     2 |       15 | -2.139833E+01 | -3.850000E+01
+     3 |       20 | -2.634667E+01 | -3.850000E+01
+     4 |       25 | -3.406667E+01 | -4.100000E+01
+     5 |       30 | -3.815000E+01 | -4.100000E+01
+     6 |       35 | -4.075000E+01 | -4.150000E+01
+     7 |       40 | -4.150000E+01 | -4.150000E+01
+     8 |       45 | -4.150000E+01 | -4.150000E+01
+     9 |       50 | -4.150000E+01 | -4.150000E+01
+    10 |       55 | -4.150000E+01 | -4.150000E+01
+Best solution found: [array(['t amet, consectetur adipiscing elit.</h2>>\n</html>ht>>\nfop>L ripsimdolodolortaim',
+        'et, consectetur adipiscing elit.</ul>>\n</html>html>\nmlttm<Ex Lremmidpsum sitra i'],
+       dtype='<U137')                                                                         ]
+Function value: [-41.5]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |       10 | -1.640365E+01 | -3.400000E+01
+     2 |       15 | -2.300119E+01 | -3.900000E+01
+     3 |       20 | -3.263333E+01 | -3.900000E+01
+     4 |       25 | -3.695000E+01 | -3.900000E+01
+     5 |       30 | -3.775000E+01 | -3.900000E+01
+     6 |       35 | -3.865000E+01 | -4.150000E+01
+     7 |       40 | -4.020000E+01 | -4.150000E+01
+     8 |       45 | -4.065000E+01 | -4.150000E+01
+     9 |       50 | -4.075000E+01 | -4.150000E+01
+    10 |       55 | -4.075000E+01 | -4.150000E+01
+Best solution found: [array(['r incididunt ut labore et dolore magna aliqua.</ol>>\n</html>ompml<h>Stdml\n<hxepteurte sir',
+        'nt occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</ul>>\n</htmohlm\n>u<h3ie iusmodemp'],
+       dtype='<U135')                                                                                                                             ]
+Function value: [-41.5]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |       10 | -9.743968E+00 | -1.360000E+01
+     2 |       15 | -1.228964E+01 | -1.660000E+01
+     3 |       20 | -1.399238E+01 | -1.660000E+01
+     4 |       25 | -1.630667E+01 | -1.800000E+01
+     5 |       30 | -1.776000E+01 | -1.800000E+01
+     6 |       35 | -1.788000E+01 | -1.800000E+01
+     7 |       40 | -1.788000E+01 | -1.800000E+01
+     8 |       45 | -1.788000E+01 | -1.800000E+01
+     9 |       50 | -1.868000E+01 | -1.940000E+01
+    10 |       55 | -1.940000E+01 | -1.940000E+01
+Best solution found: [array(['ht<ht\n<l>\n>\ntmlm h5<htaditemlodoam ese aemecindaditaadnoiscig  eelnt</htlihtnt>>n ',
+        '\nipsumm olemitr pteur nt set, sesmodonnsctetr tet duntint it/ddo</nalomlhttma.<h',
+        'iv><hl>\n<apsuml>\n<av a id sit, sit ooneturcapiscisg el e.<proi.</hde m>>\n<>\nnaqu i',
+        '</ol>>\n</html>ml>Duml>\n<d sime csmmet,ccctaeeturcudidipit inbore engdoit5> m>\n, >\nsu/h<sml',
+        'culpa qui officia deserunt mollit anim id est laborum.</section>>\n<>Lml><htor<a>Dupsum dt olco tpotu acir  api uinprlit.v>ivag al><ht<'],
+       dtype='<U142')                                                                                                                              ]
+Function value: [-19.4]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |       10 | -2.244000E+01 | -3.400000E+01
+     2 |       15 | -3.293333E+01 | -3.800000E+01
+     3 |       20 | -3.650000E+01 | -3.800000E+01
+     4 |       25 | -3.825000E+01 | -3.950000E+01
+     5 |       30 | -3.935000E+01 | -4.150000E+01
+     6 |       35 | -3.970000E+01 | -4.150000E+01
+     7 |       40 | -4.010000E+01 | -4.150000E+01
+     8 |       45 | -4.060000E+01 | -4.150000E+01
+     9 |       50 | -4.075000E+01 | -4.150000E+01
+    10 |       55 | -4.085000E+01 | -4.150000E+01
+Best solution found: [array(['div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pm>E',
+        'm veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cm>\n<hheSd ddome er'],
+       dtype='<U130')                                                                                             ]
+Function value: [-41.5]
+=================================================
+n_gen  |  n_eval  |     f_avg     |     f_min
+=================================================
+     1 |       10 | -1.624175E+01 | -3.400000E+01
+     2 |       15 | -2.347333E+01 | -4.000000E+01
+     3 |       20 | -2.922500E+01 | -4.000000E+01
+     4 |       25 | -3.451667E+01 | -4.000000E+01
+     5 |       30 | -3.865000E+01 | -4.000000E+01
+     6 |       35 | -3.865000E+01 | -4.000000E+01
+     7 |       40 | -3.865000E+01 | -4.000000E+01
+     8 |       45 | -3.865000E+01 | -4.000000E+01
+     9 |       50 | -3.865000E+01 | -4.000000E+01
+    10 |       55 | -3.865000E+01 | -4.000000E+01
+Best solution found: [array(['e dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</aside>>\n</html>h<t>iUati enimis adt  inir ',
+        'eniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>>\n</html><<htltl>>U\naide>Ds ati ir re'],
+       dtype='<U132')                                                                                                                             ]
+Function value: [-40.]

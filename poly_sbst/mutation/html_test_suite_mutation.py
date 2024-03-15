@@ -14,7 +14,7 @@ class HTMLTestSuiteMutation(AbstractMutation):
 
         possible_mutations = [
             self._delete_random_character,
-            self._insert_random_character,
+            self._replace_body_content,
             self._replace_random_character
         ]
         mutator = np.random.choice(possible_mutations)
@@ -23,26 +23,30 @@ class HTMLTestSuiteMutation(AbstractMutation):
 
     def _delete_random_character(self, s):
         """Returns s with a random character deleted"""
-        for url in s:
-            if len(url) > 5:
-                pos = random.randint(0, len(url) - 1)
-                url = url[:pos] + url[pos + 1 :]
-        return s
-
-    def _insert_random_character(self, s):
-        """Returns s with a random character inserted"""
-        for url in s:
-            pos = random.randint(0, len(url))
-            random_character = chr(random.randrange(32, 127))
-            url = url[:pos] + random_character + url[pos:]
+        for html in s:
+            if len(html) > 5:
+                pos = random.randint(0, len(html) - 1)
+                html = html[:pos] + html[pos + 1 :]
         return s
 
     def _replace_random_character(self, s):
         """Returns s with a random character replaced"""
-        if s == None:
-            return None
-        for url in s:
-            pos = random.randint(0, len(url) - 1)
+        for html in s:
+            pos = random.randint(0, len(html) - 1)
             random_character = chr(random.randrange(32, 127))
-            url = url[:pos] + random_character + url[pos + 1 :]
+            html = html[:pos] + random_character + html[pos + 1 :]
         return s
+
+    def _replace_body_content(self, s):
+        """Replaces content within the <body> tag with a random string"""
+        for html in s:
+            start = html.find("<body>") + len("<body>")
+            end = html.find("</body>")
+            if start != -1 and end != -1:
+                html = html[:start] + self._generate_random_html_content() + html[end:]
+        return s
+
+    def _generate_random_html_content(self):
+        """Generates random HTML content"""
+        # You can customize this method based on your requirements
+        return "<p>" + "".join(random.choices("abcdefghijklmnopqrstuvwxyz", k=10)) + "</p>"
